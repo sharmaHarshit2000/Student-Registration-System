@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration System</h1>
+        
+        <!-- Form Container -->
+        <div class="form-container">
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="name">Student Name:</label>
+                    <input type="text" id="name" name="name" pattern="[A-Za-z\s]+" required title="Name should contain only letters and spaces">
+                </div>
+                <div class="form-group">
+                    <label for="id">Student ID:</label>
+                    <input type="text" id="id" name="id" pattern="[1-9]\d*" required title="Enter a valid Student ID ">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" name="email" required title="Enter a valid email">
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact No:</label>
+                    <input type="text" id="contact" name="contact" pattern="^\d{10}$" required title="Contact number should be 10 digits">
+                </div>
+
+                <button type="submit" id="submit-button">Add</button>
+            </form>
+        </div>
+
+        <!-- Student Records Table -->
+        <div class="table-container">
+            <h2>Student Records</h2>
+            <table id="student-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Email</th>
+                        <th>Contact No.</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic rows will be added here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
