@@ -1,8 +1,13 @@
 /* General Styles */
-body {
-  font-family: Arial, sans-serif;
+
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
   background: linear-gradient(
     135deg,
     #6e7dff,
@@ -19,6 +24,22 @@ body {
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #4caf50; /* Add any color you prefer */
+  color: white;
+  border-radius: 8px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+.header p {
+  margin-top: 10px;
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -60,9 +81,9 @@ form {
 form label {
   font-size: 16px;
   font-weight: bold;
-  color: #fff; 
+  color: #fff;
   margin-right: 10px;
-  width: 120px; 
+  width: 120px;
 }
 
 form input {
@@ -92,7 +113,7 @@ form button {
   transition: background-color 0.3s ease;
   align-self: center; /* Center the button */
   width: auto;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 form button:hover {
