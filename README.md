@@ -66,7 +66,7 @@ student-registration-system/
 
 ## 🖼️ Screenshot
 
-![Student Registration System Screenshot](./screenshot.png)
+![Student Registration System Screenshot](./screenshot.PNG)
 
 ---
 
