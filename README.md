@@ -1,18 +1,33 @@
-﻿# Student-Re# 🎓 Student Registration System
+﻿# 🎓 Student Registration System
 
-The **Student Registration System** is a simple, user-friendly web app built with **HTML**, **CSS**, and **JavaScript**.  
-It lets you **add**, **edit**, **delete**, and **view** student records, with all data stored locally in your browser using `localStorage`—so your data persists even after you close the tab!
+A simple and effective web-based application built using **HTML**, **CSS**, and **JavaScript**. It allows users to **add**, **edit**, **delete**, and **view** student records dynamically. All data is saved locally using the browser’s `localStorage`, ensuring persistence even after the page reloads.
+
+---
+
+## 🔗 Live Demo
+
+👉 **[View Live on Netlify](https://registrationformstudent.netlify.app/)**  
+📦 **[GitHub Repository](https://github.com/sharmaHarshit2000/Student-Registration-System.git)**
 
 ---
 
 ## 📌 Features
 
-- ✅ Add new student records
-- 📝 Edit student details
-- 🗑️ Delete student entries
+- ✅ Add student details (Name, Email, etc.)
+- 📝 Edit existing student information
+- ❌ Delete student records
 - 📄 View all registered students in a table
-- 💾 Data stored in `localStorage` (persists across sessions)
-- 📱 Responsive design for desktop and mobile
+- 💾 Data saved in browser's `localStorage`
+- 📱 Responsive layout using pure CSS
+- 🌟 Favicon support
+
+---
+
+## 🧩 Tech Stack
+
+- **HTML5** – Page structure  
+- **CSS3** – Styling and responsiveness  
+- **JavaScript (Vanilla)** – Dynamic form handling, DOM manipulation, and data storage
 
 ---
 
@@ -20,52 +35,38 @@ It lets you **add**, **edit**, **delete**, and **view** student records, with al
 
 ```
 student-registration-system/
-├── index.html        # Main HTML structure
-├── styles.css        # Custom styles
-├── script.js         # CRUD logic & localStorage
-├── README.md         # Project documentation
-└── github_link.txt   # (Optional) Project GitHub URL
+├── index.html      # Main HTML page
+├── styles.css      # All custom styles
+├── script.js       # JS logic for form handling and storage
+├── favicon.jpeg    # Favicon added in HTML head
+├── README.md       # Project documentation
 ```
 
 ---
 
-## 🚀 Getting Started
-
-To run this app locally:
+## 🌐 Setup & Usage
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/student-registration-system.git
-   cd student-registration-system
+   git clone https://github.com/sharmaHarshit2000/Student-Registration-System.git
    ```
+2. **Navigate to the project folder and open `index.html` in your browser.**
 
-2. **Open `index.html` in your browser.**
-
-> No server setup required.  
-> All features work client-side.
+> No server setup or npm install needed — it's a purely frontend app.
 
 ---
 
-## 📸 Screenshot
+## 🧠 How It Works
 
-<!-- Optional: Add a screenshot below -->
+- On submitting the form, the student data is added to localStorage and shown in a table.
+- Users can click **Edit** to modify existing data, or **Delete** to remove a student.
+- The data remains saved in the browser until manually cleared.
+
+---
+
+## 🖼️ Screenshot
+
 ![Student Registration System Screenshot](./screenshot.png)
-
----
-
-## 🌐 Live Demo
-
-If deployed, add your link here:
-
-🔗 [View Live](https://your-live-demo-link.com)
-
----
-
-## 📘 Technologies Used
-
-- **HTML5** – Markup structure
-- **CSS3** – Styling and responsive layout
-- **JavaScript** – Dynamic functionality & data persistence
 
 ---
 
@@ -78,5 +79,3 @@ This project is designed as a beginner-friendly solution to practice:
 - Using `localStorage` in JavaScript
 
 ---
-
-Made with ❤️ for learninggistration-System
